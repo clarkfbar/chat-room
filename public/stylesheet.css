@@ -1,0 +1,33 @@
+#loginwrap,#registerwrap{
+	border: 2px solid black;
+	width: 400px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+#loginForm{
+	text-align: center;
+	margin-top: 25px;
+}
+
+#loginTable{
+	margin: 0 auto;
+}
+
+#email, #password{
+	height: 25px;
+}
+
+#registerForm{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#registerTable{
+	margin: 0 auto;
+}
+
+#reg_email, #reg_password, #reg_name{
+	height: 25px;
+}

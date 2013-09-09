@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Online Chat Room</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="login.js"></script>
+	</head>
+
+	<body>
+		<div id="loginwrap">
+			<form id = "loginForm">
+				<table id ="loginTable">
+					<tr>
+						<td>Email:</td>
+						<td><input size="30" type="email" id="email" value="<%= email %>"></input></td>
+					</tr>
+					<tr>
+						<td>Password:</td>
+						<td><input size="20" type="password" id="password" value="<%= password %>"></input></td>
+					</tr>
+				</table>
+				<input type="checkbox" id="remember">Remember Me?</input><br/>
+				<input type="submit" id="login"></input>
+				<input type="button" value="Register" id="register"></input>
+			</form>
+		</div>
+		<div id="registerwrap">
+			<form id = "registerForm">
+				<table id="registerTable">
+					<tr>
+						<td>Email:</td>
+						<td><input size="30" type="email" id="reg_email"></input></td>
+					</tr>
+					<tr>
+						<td>Full Name:</td>
+						<td><input size="20" id="reg_name"></input></td>
+					</tr>
+					<tr>
+						<td>Password:</td>
+						<td><input size="20" type="password" id="reg_password"></input></td>
+					</tr>
+				</table>
+				<input type="button" value ="submit" id="reg_submit"></input>
+				<input type="button" value = "back" id="reg_back"></input>
+			</form> 
+		</div>
+	</body>
+</html>
