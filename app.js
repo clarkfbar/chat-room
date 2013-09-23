@@ -9,7 +9,7 @@ var persons = new Array();
 var sockets = new Array();
 
 app.configure(function(){
-	app.set('port', 8888);
+	app.set('port', process.env.PORT||8888);
 	app.set('views', __dirname + '/views');
 	//app.engine('html', require('ejs').renderFile);
 	app.set('view engine','ejs');
@@ -23,7 +23,7 @@ app.configure(function(){
 	app.use(express.bodyParser());
 });
 
-mongoose.connect('mongodb://localhost/reg', function(err){
+mongoose.connect('mongodb://fengzeyu:ilywangyan0312@paulo.mongohq.com:10098/game', function(err){
 	if(err){
 		console.log(err);
 	}else{
@@ -101,15 +101,10 @@ io.sockets.on('connection', function(socket){
 	socket.on('connect', function(data){
 		socket.name = data.name;
 		sockets.push(socket);
-		console.log("After inserting, the size is "+sockets.length);
 
 		console.log("new user connected");
 		for(var i = 0; i < sockets.length; i++){
 			sockets[i].emit('drawChar',data);
-		}
-
-		for(var i = 0; i < sockets.length; i++){
-			console.log(i+"   : "+sockets[i].name);
 		}
 
 		for(var i = 0; i < persons.length; i ++){
@@ -136,6 +131,7 @@ io.sockets.on('connection', function(socket){
 	//when disconnect, sent new usernames to client
 	socket.on('disconnect', function(data){
 		if(!socket.name) return;
+		console.log("disconnect "+socket.name);
 		for(var i = 0; i < sockets.length; i ++){
 			if(sockets[i].name==socket.name){
 				sockets.splice(i,1);
@@ -143,11 +139,8 @@ io.sockets.on('connection', function(socket){
 					sockets[j].emit('removeChar', persons[i]);
 				}
 				persons.splice(i,1);
+				break;
 			}
-		}
-		console.log("after remove the user "+ socket.name);
-		for(var i = 0; i < sockets.length; i ++){
-			console.log(i+" :  "+sockets[i].name);
 		}
 	});
 
