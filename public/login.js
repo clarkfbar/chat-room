@@ -39,11 +39,23 @@ jQuery(function ($) {
 			{email: $("#email").val(), password:$("#password").val()},
 			function(data){
 				if(data){
-					var url = 'welcome?email='+$("#email").val();
 					if($("#remember").is(':checked')){
-						url += '&password='+$("#password").val();
+						$.ajax({ 
+					        url: '/save',
+					        type: 'POST',
+					        cache: false, 
+					        data: {email: $("#email").val(), password:$("#password").val()}, 
+					        success: function(data){
+					           //alert(data)
+					        }
+					        , error: function(jqXHR, textStatus, err){
+					            //alert('text status '+textStatus+', err '+err)
+					        }
+	        			});
 					}
-					window.open (url,'_self',false);
+					$.cookie("name", data);
+
+					window.open('/welcome','_self',false);
 				}else{
 					alert("The user does not exist or the password is wrong.");
 				}

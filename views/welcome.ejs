@@ -1,7 +1,23 @@
 <html>
 	<head>
 		<title><%= title %></title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="jquery.cookie.js"></script>
 	</head>
 	<body>
+		<script src="board.js"></script>
+		<table>
+			<tr><td>
+				<div id = "board"></div>
+			</td>
+			<td>
+				<div id = "chatPanel">
+					<input type="text" id="text" value="Enter your text here" onfocus="if(value=='Enter your text here'){value='';}" onblur="if(value==''){value='Enter your text here';}"></input>
+					<input type="button" id="say" value="Submit"></input>
+				</div>
+			</td></tr>
+		</table>
 	</body>
 </html>

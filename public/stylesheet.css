@@ -31,3 +31,68 @@
 #reg_email, #reg_password, #reg_name{
 	height: 25px;
 }
+
+#board{
+	width: 800px;
+	height: 600px;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 50px;
+	background: url("background.jpg");
+}
+
+.down{
+	margin-bottom: -144px;
+}
+
+.up{
+	margin-top: -144px;
+}
+
+.left{
+	margin-top: -48px;
+	margin-bottom: -96px;
+}
+
+.right{
+	margin-top: -96px;
+	margin-bottom: -48px;			
+}
+
+.stand{
+	margin-right: -96px;
+}
+
+.left_foot{
+	margin-left: -96px;
+}
+
+.right_foot{
+	margin-left: -32px;
+	margin-right: -64px;
+}
+
+.outer{
+	width: 32px;
+	height: 46px;
+	position: absolute;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+.textBox{
+	margin-top: -10px;
+	margin-left: -3px;
+	text-align: center;
+	position: absolute;
+	word-wrap: break-word;
+	width: 50px;
+	color: yellow;
+	z-index: 3;
+}
+
+
+#chatPanel{
+	margin-top: 20px;
+	position: relative;
+}
