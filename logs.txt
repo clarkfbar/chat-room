@@ -1,0 +1,101 @@
+2013-09-23T07:23:23.340157+00:00 app[web.1]: debug: xhr-polling received data packet 5:::{"name":"move","args":[{"name":"Zeyu Feng","positionx":120,"positiony":75,"class":"up stand"}]}
+2013-09-23T07:23:23.335653+00:00 heroku[router]: at=info method=POST path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920988953 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=1ms service=4ms status=200 bytes=1
+2013-09-23T07:23:23.343681+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T07:23:23.344074+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T07:23:23.344297+00:00 app[web.1]: debug: xhr-polling writing 5:::{"name":"moveChar","args":[{"name":"Zeyu Feng","positionx":120,"positiony":75,"class":"up stand"}]}
+2013-09-23T07:23:23.344547+00:00 app[web.1]: debug: set close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:23.344754+00:00 app[web.1]: debug: discarding transport
+2013-09-23T07:23:23.344850+00:00 app[web.1]: debug: cleared close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:23.343506+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920988956
+2013-09-23T07:23:23.343982+00:00 heroku[router]: at=info method=GET path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920988956 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=1ms service=4ms status=200 bytes=103
+2013-09-23T07:23:23.451526+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T07:23:23.451575+00:00 app[web.1]: debug: discarding transport
+2013-09-23T07:23:23.451026+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920989069
+2013-09-23T07:23:23.451652+00:00 app[web.1]: debug: cleared close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:23.472745+00:00 app[web.1]: debug: xhr-polling received data packet 5:::{"name":"move","args":[{"name":"Zeyu Feng","positionx":120,"positiony":60,"class":"up left_foot"}]}
+2013-09-23T07:23:23.472834+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T07:23:23.477736+00:00 app[web.1]: debug: xhr-polling writing 5:::{"name":"moveChar","args":[{"name":"Zeyu Feng","positionx":120,"positiony":60,"class":"up left_foot"}]}
+2013-09-23T07:23:23.477736+00:00 app[web.1]: debug: set close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:23.582209+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920989198
+2013-09-23T07:23:23.582209+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T07:23:23.582209+00:00 app[web.1]: debug: cleared close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:23.582209+00:00 app[web.1]: debug: discarding transport
+2013-09-23T07:23:23.918932+00:00 app[web.1]: debug: xhr-polling received data packet 5:::{"name":"move","args":[{"name":"Zeyu Feng","positionx":135,"positiony":60,"class":"right stand"}]}
+2013-09-23T07:23:23.919151+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T07:23:23.919312+00:00 app[web.1]: debug: xhr-polling writing 5:::{"name":"moveChar","args":[{"name":"Zeyu Feng","positionx":135,"positiony":60,"class":"right stand"}]}
+2013-09-23T07:23:23.919499+00:00 app[web.1]: debug: set close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:23.924907+00:00 heroku[router]: at=info method=GET path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920989198 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=1ms service=340ms status=200 bytes=106
+2013-09-23T07:23:24.029359+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920989647
+2013-09-23T07:23:24.029515+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T07:23:24.029671+00:00 app[web.1]: debug: cleared close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:24.029632+00:00 app[web.1]: debug: discarding transport
+2013-09-23T07:23:23.477414+00:00 heroku[router]: at=info method=GET path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920989069 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=0ms service=27ms status=200 bytes=107
+2013-09-23T07:23:24.482934+00:00 app[web.1]: debug: xhr-polling received data packet 5:::{"name":"move","args":[{"name":"Zeyu Feng","positionx":150,"positiony":60,"class":"right right_foot"}]}
+2013-09-23T07:23:24.483023+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T07:23:24.483398+00:00 app[web.1]: debug: xhr-polling writing 5:::{"name":"moveChar","args":[{"name":"Zeyu Feng","positionx":150,"positiony":60,"class":"right right_foot"}]}
+2013-09-23T07:23:24.483455+00:00 app[web.1]: debug: set close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:24.489026+00:00 heroku[router]: at=info method=GET path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920989647 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=1ms service=458ms status=200 bytes=111
+2013-09-23T07:23:24.589067+00:00 app[web.1]: debug: cleared close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:24.589067+00:00 app[web.1]: debug: discarding transport
+2013-09-23T07:23:24.588853+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920990206
+2013-09-23T07:23:24.588972+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T07:23:24.658168+00:00 app[web.1]: debug: xhr-polling received data packet 5:::{"name":"move","args":[{"name":"Zeyu Feng","positionx":165,"positiony":60,"class":"right stand"}]}
+2013-09-23T07:23:24.658636+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T07:23:24.659275+00:00 app[web.1]: debug: xhr-polling writing 5:::{"name":"moveChar","args":[{"name":"Zeyu Feng","positionx":165,"positiony":60,"class":"right stand"}]}
+2013-09-23T07:23:24.660302+00:00 app[web.1]: debug: set close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:24.765735+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920990383
+2013-09-23T07:23:24.765911+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T07:23:24.766223+00:00 app[web.1]: debug: discarding transport
+2013-09-23T07:23:24.766223+00:00 app[web.1]: debug: cleared close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:24.483878+00:00 heroku[router]: at=info method=POST path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920990101 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=1ms service=3ms status=200 bytes=1
+2013-09-23T07:23:24.966582+00:00 app[web.1]: debug: xhr-polling writing 5:::{"name":"moveChar","args":[{"name":"Zeyu Feng","positionx":150,"positiony":60,"class":"left stand"}]}
+2013-09-23T07:23:24.966033+00:00 app[web.1]: debug: xhr-polling received data packet 5:::{"name":"move","args":[{"name":"Zeyu Feng","positionx":150,"positiony":60,"class":"left stand"}]}
+2013-09-23T07:23:24.966348+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T07:23:24.970008+00:00 app[web.1]: debug: set close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:24.960343+00:00 heroku[router]: at=info method=GET path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920990383 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=1ms service=203ms status=200 bytes=105
+2013-09-23T07:23:25.078141+00:00 app[web.1]: debug: discarding transport
+2013-09-23T07:23:25.078258+00:00 app[web.1]: debug: cleared close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:25.077623+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920990690
+2013-09-23T07:23:25.077771+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T07:23:25.538535+00:00 app[web.1]: debug: xhr-polling received data packet 5:::{"name":"move","args":[{"name":"Zeyu Feng","positionx":135,"positiony":60,"class":"left right_foot"}]}
+2013-09-23T07:23:25.538908+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T07:23:25.538908+00:00 app[web.1]: debug: xhr-polling writing 5:::{"name":"moveChar","args":[{"name":"Zeyu Feng","positionx":135,"positiony":60,"class":"left right_foot"}]}
+2013-09-23T07:23:25.538976+00:00 app[web.1]: debug: set close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:25.544329+00:00 heroku[router]: at=info method=GET path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920990690 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=1ms service=470ms status=200 bytes=110
+2013-09-23T07:23:25.535459+00:00 heroku[router]: at=info method=POST path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920991156 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=0ms service=2ms status=200 bytes=1
+2013-09-23T07:23:25.656505+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920991266
+2013-09-23T07:23:25.656649+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T07:23:25.656686+00:00 app[web.1]: debug: discarding transport
+2013-09-23T07:23:25.656857+00:00 app[web.1]: debug: cleared close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:25.725427+00:00 app[web.1]: debug: xhr-polling writing 5:::{"name":"moveChar","args":[{"name":"Zeyu Feng","positionx":120,"positiony":60,"class":"left stand"}]}
+2013-09-23T07:23:25.725139+00:00 app[web.1]: debug: xhr-polling received data packet 5:::{"name":"move","args":[{"name":"Zeyu Feng","positionx":120,"positiony":60,"class":"left stand"}]}
+2013-09-23T07:23:25.725284+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T07:23:25.725490+00:00 app[web.1]: debug: set close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:25.727587+00:00 heroku[router]: at=info method=GET path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920991266 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=3ms service=74ms status=200 bytes=105
+2013-09-23T07:23:25.722322+00:00 heroku[router]: at=info method=POST path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920991311 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=7ms service=6ms status=200 bytes=1
+2013-09-23T07:23:25.836278+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920991452
+2013-09-23T07:23:25.836691+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T07:23:25.836691+00:00 app[web.1]: debug: discarding transport
+2013-09-23T07:23:25.836760+00:00 app[web.1]: debug: cleared close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:25.848104+00:00 app[web.1]: debug: xhr-polling received data packet 5:::{"name":"move","args":[{"name":"Zeyu Feng","positionx":105,"positiony":60,"class":"left left_foot"}]}
+2013-09-23T07:23:25.848104+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T07:23:25.848378+00:00 app[web.1]: debug: xhr-polling writing 5:::{"name":"moveChar","args":[{"name":"Zeyu Feng","positionx":105,"positiony":60,"class":"left left_foot"}]}
+2013-09-23T07:23:25.848862+00:00 app[web.1]: debug: set close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:25.845139+00:00 heroku[router]: at=info method=POST path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920991466 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=1ms service=1ms status=200 bytes=1
+2013-09-23T07:23:25.851486+00:00 heroku[router]: at=info method=GET path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920991452 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=0ms service=16ms status=200 bytes=109
+2013-09-23T07:23:25.953963+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920991572
+2013-09-23T07:23:25.954093+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T07:23:25.954093+00:00 app[web.1]: debug: discarding transport
+2013-09-23T07:23:25.954176+00:00 app[web.1]: debug: cleared close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:24.647602+00:00 heroku[router]: at=info method=POST path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920990254 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=1ms service=3ms status=200 bytes=1
+2013-09-23T07:23:24.954892+00:00 heroku[router]: at=info method=POST path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920990582 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=0ms service=1ms status=200 bytes=1
+2013-09-23T07:21:31.339677+00:00 heroku[router]: at=info method=POST path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920876943 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=9ms service=4ms status=200 bytes=1
+2013-09-23T07:23:45.950454+00:00 heroku[router]: at=info method=GET path=/socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379920991572 host=safe-falls-5403.herokuapp.com fwd="71.202.17.17" dyno=web.1 connect=0ms service=20009ms status=200 bytes=3
+2013-09-23T07:23:45.956923+00:00 app[web.1]: debug: set close timeout for client _RdRUxvKLrvGV7edsQrI
+2013-09-23T07:23:45.956923+00:00 app[web.1]: debug: xhr-polling closed due to exceeded duration
+2013-09-23T07:23:45.956350+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T07:23:45.956627+00:00 app[web.1]: debug: xhr-polling writing 8::
+2013-09-23T07:23:46.066786+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/_RdRUxvKLrvGV7edsQrI?t=1379921011680
+2013-09-23T07:23:46.066990+00:00 app[web.1]: debug: discarding transport
+2013-09-23T07:23:46.066990+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T07:23:46.066990+00:00 app[web.1]: debug: cleared close timeout for client _RdRUxvKLrvGV7edsQrI

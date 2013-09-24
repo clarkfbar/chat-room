@@ -3,6 +3,20 @@ jQuery(function ($) {
 		window.open("/", "__self", false);
 	}
 
+	change_position();
+
+	$(window).resize(function(){
+		change_position();
+	});
+
+	function change_position(){
+		if($(window).width() >= 1040){
+			$("#chatPanel").animate({"padding-top":"0"},"fast");
+		}else{
+			$("#chatPanel").animate({"padding-top":"450px"},"fast");
+		}
+	}
+
 	function character(name){
 		this.name = name;
 		this.positionx = 0;
@@ -87,10 +101,10 @@ jQuery(function ($) {
 				break;
 		}
 
-		position_y = (position_y + change_y) < 0 ? 0 : (position_y + change_y);
-		position_x = (position_x + change_x)< 0 ? 0 : (position_x + change_x);
-		position_y = (position_y+60) > 600? 540 : position_y;
-		position_x = (position_x+30) > 800? 770 : position_x;
+		position_y = (position_y + change_y) < -10 ? -10 : (position_y + change_y);
+		position_x = (position_x + change_x) < 0 ? 0 : (position_x + change_x);
+		position_y = (position_y+60) > 450? 390 : position_y;
+		position_x = (position_x+30) > 600? 570 : position_x;
 		var cur_class;
 		switch(obj.current){
 			case "no" : cur_class = dir+" stand"; obj.current = "stand1"; break;
@@ -143,7 +157,9 @@ jQuery(function ($) {
 	$("#say").click(function(){
 		var message = $("#text").val();
 		if(message != 'Enter your text here'){
-			socket.emit('message',{name:person.name, message:message});
+			socket.emit('message',{name:person.name, message:message},function(data){
+				$("#text").text("");
+			});
 		}
 	});
 
@@ -155,5 +171,6 @@ jQuery(function ($) {
 		var x = parseInt($textBox.css('top'))-height;
 		$textBox.css('top',x);
 		setTimeout(function(){$textBox.text(data.name); $textBox.css('top',x+height);},4000);
+		$("#chat").append("<p><b>"+data.name+"</b>: "+data.message+"</p>").scrollTop($("#chat").height());
 	});
 });

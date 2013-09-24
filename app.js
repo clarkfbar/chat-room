@@ -8,6 +8,11 @@ var express = require("express"),
 var persons = new Array();
 var sockets = new Array();
 
+io.configure(function(){
+	io.set("transports", ["xhr-polling"]);
+	io.set("polling duration",10);
+});
+
 app.configure(function(){
 	app.set('port', process.env.PORT||8888);
 	app.set('views', __dirname + '/views');

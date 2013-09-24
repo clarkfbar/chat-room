@@ -33,11 +33,12 @@
 }
 
 #board{
-	width: 800px;
-	height: 600px;
+	width: 600px;
+	height: 450px;
 	position: absolute;
-	margin-top: 50px;
-	margin-left: 50px;
+	left: 0;
+	right: 0;
+	margin: auto auto;
 	background: url("background.jpg");
 }
 
@@ -93,6 +94,18 @@
 
 
 #chatPanel{
-	margin-top: 20px;
 	position: relative;
+	margin-right: 10px;
+}
+
+#chat{
+	width: 224px;
+	height: 300px;
+	border: 1px solid;
+	overflow-y:scroll;
+}
+
+#panel{
+	position: relative;
+	top: 40px;
 }

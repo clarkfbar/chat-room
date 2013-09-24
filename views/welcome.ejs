@@ -7,17 +7,14 @@
 		<script src="jquery.cookie.js"></script>
 	</head>
 	<body>
+		<div id = "panel">
+			<div id = "board"></div>
+			<div id = "chatPanel">
+				<div id="chat"></div>
+				<input type="text" id="text" value="Enter your text here" onfocus="if(value=='Enter your text here'){value='';}" onblur="if(value==''){value='Enter your text here';}"></input>
+				<input type="button" id="say" value="Submit"></input>
+			</div>
+		</div>
 		<script src="board.js"></script>
-		<table>
-			<tr><td>
-				<div id = "board"></div>
-			</td>
-			<td>
-				<div id = "chatPanel">
-					<input type="text" id="text" value="Enter your text here" onfocus="if(value=='Enter your text here'){value='';}" onblur="if(value==''){value='Enter your text here';}"></input>
-					<input type="button" id="say" value="Submit"></input>
-				</div>
-			</td></tr>
-		</table>
 	</body>
 </html>

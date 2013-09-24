@@ -1,0 +1,80 @@
+2013-09-23T08:22:16.647350+00:00 app[web.1]: debug: set heartbeat timeout for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:22:16.647198+00:00 app[web.1]: debug: htmlfile writing <script>_("2::");</script>
+2013-09-23T08:22:16.838956+00:00 app[web.1]: debug: htmlfile received data packet 2::
+2013-09-23T08:22:16.839210+00:00 app[web.1]: debug: got heartbeat packet
+2013-09-23T08:22:16.839448+00:00 app[web.1]: debug: cleared heartbeat timeout for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:22:16.839733+00:00 app[web.1]: debug: set heartbeat interval for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:22:41.840491+00:00 app[web.1]: debug: htmlfile writing <script>_("2::");</script>
+2013-09-23T08:22:41.840713+00:00 app[web.1]: debug: set heartbeat timeout for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:22:41.839792+00:00 app[web.1]: debug: emitting heartbeat for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:22:42.031521+00:00 app[web.1]: debug: htmlfile received data packet 2::
+2013-09-23T08:22:42.031521+00:00 app[web.1]: debug: got heartbeat packet
+2013-09-23T08:22:42.031521+00:00 app[web.1]: debug: cleared heartbeat timeout for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:22:42.031521+00:00 app[web.1]: debug: set heartbeat interval for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:22:49.354428+00:00 app[web.1]: [90mGET / [36m304 [90m1ms[0m
+2013-09-23T08:22:49.497117+00:00 app[web.1]: debug: served static content /socket.io.js
+2013-09-23T08:22:49.930334+00:00 app[web.1]: debug: client authorized
+2013-09-23T08:22:49.930638+00:00 app[web.1]: info: handshake authorized xAdS628Qwx1wpdsxxXei
+2013-09-23T08:23:00.140233+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/xAdS628Qwx1wpdsxxXei?t=1379924563927
+2013-09-23T08:23:00.140372+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T08:23:00.143456+00:00 app[web.1]: debug: client authorized for 
+2013-09-23T08:23:00.143456+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T08:23:00.143647+00:00 app[web.1]: debug: xhr-polling writing 1::
+2013-09-23T08:23:00.143936+00:00 app[web.1]: debug: set close timeout for client xAdS628Qwx1wpdsxxXei
+2013-09-23T08:23:00.355562+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/xAdS628Qwx1wpdsxxXei?t=1379924564135
+2013-09-23T08:23:00.357678+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T08:23:00.357678+00:00 app[web.1]: debug: discarding transport
+2013-09-23T08:23:00.357900+00:00 app[web.1]: debug: cleared close timeout for client xAdS628Qwx1wpdsxxXei
+2013-09-23T08:23:07.037506+00:00 app[web.1]: debug: htmlfile writing <script>_("2::");</script>
+2013-09-23T08:23:07.037413+00:00 app[web.1]: debug: emitting heartbeat for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:23:07.037567+00:00 app[web.1]: debug: set heartbeat timeout for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:23:07.231912+00:00 app[web.1]: debug: htmlfile received data packet 2::
+2013-09-23T08:23:07.231912+00:00 app[web.1]: debug: got heartbeat packet
+2013-09-23T08:23:07.231912+00:00 app[web.1]: debug: cleared heartbeat timeout for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:23:07.231912+00:00 app[web.1]: debug: set heartbeat interval for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:23:20.360224+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T08:23:20.360547+00:00 app[web.1]: debug: xhr-polling writing 8::
+2013-09-23T08:23:20.360731+00:00 app[web.1]: debug: set close timeout for client xAdS628Qwx1wpdsxxXei
+2013-09-23T08:23:20.360895+00:00 app[web.1]: debug: xhr-polling closed due to exceeded duration
+2013-09-23T08:23:20.524194+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T08:23:20.524194+00:00 app[web.1]: debug: discarding transport
+2013-09-23T08:23:20.524447+00:00 app[web.1]: debug: cleared close timeout for client xAdS628Qwx1wpdsxxXei
+2013-09-23T08:23:20.524194+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/xAdS628Qwx1wpdsxxXei?t=1379924584311
+2013-09-23T08:23:29.199449+00:00 app[web.1]: debug: xhr-polling received data packet 5:1+::{"name":"login user","args":[{"email":"zeyu@uoregon.edu","password":"123"}]}
+2013-09-23T08:23:29.201428+00:00 app[web.1]: email zeyu@uoregon.edu password123
+2013-09-23T08:23:29.201428+00:00 app[web.1]: debug: sending data ack packet
+2013-09-23T08:23:29.201608+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T08:23:29.201764+00:00 app[web.1]: debug: xhr-polling writing 6:::1+["Clark"]
+2013-09-23T08:23:29.201954+00:00 app[web.1]: debug: set close timeout for client xAdS628Qwx1wpdsxxXei
+2013-09-23T08:23:29.343999+00:00 app[web.1]: [90mGET /welcome [32m200 [90m1ms - 706b[0m
+2013-09-23T08:23:29.476387+00:00 app[web.1]: debug: served static content /socket.io.js
+2013-09-23T08:23:30.179733+00:00 app[web.1]: debug: client authorized
+2013-09-23T08:23:30.180088+00:00 app[web.1]: info: handshake authorized cC4kYfJ4JuwoiukhxXej
+2013-09-23T08:23:32.231846+00:00 app[web.1]: debug: emitting heartbeat for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:23:32.232118+00:00 app[web.1]: debug: htmlfile writing <script>_("2::");</script>
+2013-09-23T08:23:32.232176+00:00 app[web.1]: debug: set heartbeat timeout for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:23:32.337381+00:00 app[web.1]: debug: htmlfile received data packet 2::
+2013-09-23T08:23:32.337381+00:00 app[web.1]: debug: got heartbeat packet
+2013-09-23T08:23:32.337381+00:00 app[web.1]: debug: cleared heartbeat timeout for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:23:32.337381+00:00 app[web.1]: debug: set heartbeat interval for client PD1iuwMm7QsaqP3JxXeY
+2013-09-23T08:23:40.390543+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/cC4kYfJ4JuwoiukhxXej?t=1379924604173
+2013-09-23T08:23:40.390836+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T08:23:40.391139+00:00 app[web.1]: debug
+: client authorized for 
+2013-09-23T08:23:40.391310+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T08:23:40.391566+00:00 app[web.1]: debug: xhr-polling writing 1::
+2013-09-23T08:23:40.391693+00:00 app[web.1]: debug: set close timeout for client cC4kYfJ4JuwoiukhxXej
+2013-09-23T08:23:40.500348+00:00 app[web.1]: debug: xhr-polling received data packet 5:::{"name":"connect","args":[{"name":"Clark","positionx":0,"positiony":0,"class":"down stand"}]}
+2013-09-23T08:23:40.500348+00:00 app[web.1]: new user connected
+2013-09-23T08:23:40.500914+00:00 app[web.1]: debug: htmlfile writing <script>_("5:::{\"name\":\"drawChar\",\"args\":[{\"name\":\"Clark\",\"positionx\":0,\"positiony\":0,\"class\":\"down stand\"}]}");</script>
+2013-09-23T08:23:40.501140+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/cC4kYfJ4JuwoiukhxXej?t=1379924604283
+2013-09-23T08:23:40.501565+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T08:23:40.501782+00:00 app[web.1]: debug: clearing poll timeout
+2013-09-23T08:23:40.501922+00:00 app[web.1]: debug: xhr-polling writing �98�5:::{"name":"drawChar","args":[{"name":"Clark","positionx":0,"positiony":0,"class":"down stand"}]}�104�5:::{"name":"addChar","args":[{"name":"Zeyu Feng","positionx":375,"positiony":75,"class":"down stand"}]}
+2013-09-23T08:23:40.502107+00:00 app[web.1]: debug: set close timeout for client cC4kYfJ4JuwoiukhxXej
+2013-09-23T08:23:40.502459+00:00 app[web.1]: debug: cleared close timeout for client cC4kYfJ4JuwoiukhxXej
+2013-09-23T08:23:40.502253+00:00 app[web.1]: debug: discarding transport
+2013-09-23T08:23:40.633637+00:00 app[web.1]: debug: setting request GET /socket.io/1/xhr-polling/cC4kYfJ4JuwoiukhxXej?t=1379924604410
+2013-09-23T08:23:40.633752+00:00 app[web.1]: debug: setting poll timeout
+2013-09-23T08:23:40.633897+00:00 app[web.1]: debug: discarding transport
+2013-09-23T08:23:40.633999+00:00 app[web.1]: debug: cleared close timeout for client cC4kYfJ4JuwoiukhxXej
