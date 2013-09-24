@@ -11,9 +11,19 @@ jQuery(function ($) {
 
 	function change_position(){
 		if($(window).width() >= 1040){
-			$("#chatPanel").animate({"padding-top":"0"},"fast");
+			$("#panel").css("width","1030px");
+			$("#board").animate({"margin-left":"250px"},"fast", function(){
+				$("#chat").animate({"width":"224px","height":"300px"},"fast");
+				$("#chatPanel").animate({"margin-top":"0", "margin-left":"0px","margin-right":"10px"},"fast")
+				$("#text").animate({"width":"150px"},"fast");
+			});
 		}else{
-			$("#chatPanel").animate({"padding-top":"450px"},"fast");
+			$("#panel").css("width","630px");
+			$("#chatPanel").animate({"margin-top":"450px", "margin-left": "100px"},"fast",function(){
+				$("#chat").animate({"width":"400px","height":"100px"},"fast");
+				$("#text").animate({"width":"340px"},"fast");
+				$("#board").animate({"margin-left":"10px"},"fast");
+			});
 		}
 	}
 
@@ -158,19 +168,22 @@ jQuery(function ($) {
 		var message = $("#text").val();
 		if(message != 'Enter your text here'){
 			socket.emit('message',{name:person.name, message:message},function(data){
-				$("#text").text("");
 			});
+			$("#text").val('Enter your text here');
 		}
 	});
 
 	socket.on('addMessage', function(data){
 		var $textBox = $("#"+data.name.replace(/ /g,'')+"TextBox");
 		var preH = $textBox.height();
+		var preW = $textBox.width();
 		$textBox.clearQueue().text(data.message);
+		var l = parseInt($textBox.css('left'));
+		$textBox.css('width',"100px").css('left',l-30);
 		var height = $textBox.height()-preH;
 		var x = parseInt($textBox.css('top'))-height;
 		$textBox.css('top',x);
-		setTimeout(function(){$textBox.text(data.name); $textBox.css('top',x+height);},4000);
+		setTimeout(function(){$textBox.text(data.name); $textBox.css('top',x+height).css('width',preW).css('left',l);},4000);
 		$("#chat").append("<p><b>"+data.name+"</b>: "+data.message+"</p>").scrollTop($("#chat").height());
 	});
 });

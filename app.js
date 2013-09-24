@@ -50,8 +50,10 @@ server.listen(app.get('port'), function(){
 
 app.get('/', function(req, res){
 	if(req.session.email){
+		console.log("There is a session "+req.session.email+"   "+req.session.password);
 		res.render('index.ejs',{email:req.session.email, password:req.session.password});
 	}else{
+		console.log("There is no session");
 		res.render('index.ejs',{email:'', password:''});
 	}
 });
@@ -98,6 +100,12 @@ io.sockets.on('connection', function(socket){
 				callback(false);
 			}
 			else{
+				for(var i = 0; i < persons.length; i++){
+					if(docs[0].name == persons[i].name){
+						callback(false);
+						return;
+					}
+				}
 				callback(docs[0].name);
 			}
 		});

@@ -57,7 +57,7 @@ jQuery(function ($) {
 
 					window.open('/welcome','_self',false);
 				}else{
-					alert("The user does not exist or the password is wrong.");
+					alert("The username and password may be wrong, or the account has logged in already");
 				}
 		});					
 	});

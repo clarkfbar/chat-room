@@ -39,6 +39,7 @@
 	left: 0;
 	right: 0;
 	margin: auto auto;
+	margin-left: 250px;
 	background: url("background.jpg");
 }
 
@@ -94,7 +95,7 @@
 
 
 #chatPanel{
-	position: relative;
+	position: absolute;
 	margin-right: 10px;
 }
 
@@ -103,9 +104,18 @@
 	height: 300px;
 	border: 1px solid;
 	overflow-y:scroll;
+	background: grey;
+	word-wrap: break-word;
 }
 
 #panel{
 	position: relative;
 	top: 40px;
+	width: 1030px;
+	height: 440px;
+	margin:0 auto;
+}
+
+#window_panel{
+	background: black;
 }
